@@ -9,3 +9,5 @@ Setting up Node Man for automatic reloading of files
 <!-- "scripts": {
     "dev": "nodemon src/index.js"  // nodemon reloads this file on npm run dev
   }, -->
+Prettier plugin is used for same formatting (teamwork)
+setting up prettier files(prettierignore,prettierrc(rules))
