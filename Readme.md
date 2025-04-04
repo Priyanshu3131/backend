@@ -12,4 +12,5 @@ Setting up Node Man for automatic reloading of files
 Prettier plugin is used for same formatting (teamwork)
 setting up prettier files(prettierignore,prettierrc(rules))
 The dotenv library is used in Node.js projects to manage environment variables easily and securely.
+app.use is used for middleware and configuration(CORS) settings
 
