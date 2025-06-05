@@ -4,10 +4,10 @@ import connectDB from "./db/index.js";
 import {app} from './app.js'
 import dotenv from "dotenv"
 dotenv.config({
-    path: './.env'
+    path: '../.env'
 })
 
-connectDB()
+connectDB() // async method returns promises
 .then(() => {
     app.on("errror", (error) => {  //app object (an instance of an Express.js server) is listening for "error" events.
         console.log("ERRR: ", error);
